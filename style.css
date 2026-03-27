@@ -1,0 +1,32 @@
+/* remove all padding and margins */
+*{
+    margin:	0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navigation menu bar color */
+.topnav {
+    background-color: grey;
+    overflow: hidden;
+}
+
+/* style the links inside the bar */
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: darkgrey;
+    color: black;
+}
