@@ -1,17 +1,16 @@
-/* remove all padding and margins */
-*{
-    margin:	0;
-    padding: 0;
-    box-sizing: border-box;
+/* page defaults */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-/* navigation menu bar color */
+/* navigation menu bar */
 .topnav {
     background-color: grey;
     overflow: hidden;
 }
 
-/* style the links inside the bar */
+/* links inside the navigation bar */
 .topnav a {
     float: left;
     color: black;
@@ -21,12 +20,19 @@
     font-size: 17px;
 }
 
+/* hover effect */
 .topnav a:hover {
     background-color: white;
     color: black;
 }
 
+/* active page link */
 .topnav a.active {
     background-color: darkgrey;
     color: black;
+}
+
+/* main page content */
+.content {
+    margin: 8px;
 }
