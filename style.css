@@ -1,16 +1,21 @@
 /* page defaults */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
+
 /* navigation menu bar */
+
 .topnav {
     background-color: grey;
     overflow: hidden;
 }
 
+
 /* links inside the navigation bar */
+
 .topnav a {
     float: left;
     color: black;
@@ -20,21 +25,80 @@ body {
     font-size: 17px;
 }
 
+
 /* hover effect */
+
 .topnav a:hover {
     background-color: white;
     color: black;
 }
 
+
 /* active page link */
+
 .topnav a.active {
     background-color: darkgrey;
     color: black;
 }
 
+
 /* main page content */
+
 .content {
     margin: 8px;
+}
+
+
+/* table fomrating */
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* Prevents double lines */
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+/* Search Bar */
+
+.search-container {
+    display: flex;
+    gap: 8px;
+    max-width: 400px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.logo {
+    height: auto;
+    width: 250px;
+    margin-left: 600px;
 }
 
 /* jobs.html aside */
