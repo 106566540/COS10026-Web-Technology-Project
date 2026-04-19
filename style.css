@@ -1,112 +1,114 @@
-/* page defaults */
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
+@media screen and (max-width: 4000px) {
 
-
-/* navigation menu bar */
-
-.topnav {
-    background-color: grey;
-    overflow: hidden;
-}
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
 
 
-/* links inside the navigation bar */
+    /* navigation menu bar */
 
-.topnav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
+    .topnav {
+        background-color: grey;
+        overflow: hidden;
+    }
 
 
-/* hover effect */
+    /* links inside the navigation bar */
 
-.topnav a:hover {
-    background-color: white;
-    color: black;
-}
-
-
-/* active page link */
-
-.topnav a.active {
-    background-color: darkgrey;
-    color: black;
-}
+    .topnav a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
 
 
-/* main page content */
+    /* hover effect */
 
-.content {
-    margin: 8px;
-}
-
-
-/* table fomrating */
-
-table,
-th,
-td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    /* Prevents double lines */
-    padding: 10px;
-}
-
-th {
-    background-color: #f2f2f2;
-}
+    .topnav a:hover {
+        background-color: white;
+        color: black;
+    }
 
 
-/* Search Bar */
+    /* active page link */
 
-.search-container {
-    display: flex;
-    gap: 8px;
-    max-width: 400px;
-}
+    .topnav a.active {
+        background-color: darkgrey;
+        color: black;
+    }
 
-input[type="text"] {
-    flex-grow: 1;
-    padding: 10px 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-}
 
-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-}
+    /* main page content */
 
-button:hover {
-    background-color: #0056b3;
-}
+    .content {
+        margin: 8px;
+    }
 
-.logo {
-    height: auto;
-    width: 250px;
-    margin-left: 600px;
-}
 
-/* jobs.html aside */
-aside {    border: 4px inset purple;
-    border-radius: 14px;
-    margin: 1em;
-    padding: 1em;
-    width: 25%;
-    float: right;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    /* table fomrating */
+
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        /* Prevents double lines */
+        padding: 10px;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+
+    /* Search Bar */
+
+    .search-container {
+        display: flex;
+        gap: 8px;
+        max-width: 400px;
+    }
+
+    input[type="text"] {
+        flex-grow: 1;
+        padding: 10px 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    .logo {
+        height: auto;
+        width: 250px;
+        margin-left: 600px;
+    }
+
+    /* jobs.html aside */
+    aside {    border: 4px inset purple;
+        border-radius: 14px;
+        margin: 1em;
+        padding: 1em;
+        width: 25%;
+        float: right;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }
 }

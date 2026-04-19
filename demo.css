@@ -2,7 +2,7 @@
    BANNER HEADING
    Styles the main heading inside the banner section
    ========================= */
-
+@media screen and (max-width: 4000px) {
 .banner h1{
 text-align: left; /* Aligns text to the left side */
 font-family: 'Times New Roman', Times, serif; /* Sets serif font style for a formal look */
@@ -208,4 +208,5 @@ cursor: pointer; /* Pointer on hover */
 
 #button2:hover {
 background:darkred; /* Darker red on hover */
+}
 }
