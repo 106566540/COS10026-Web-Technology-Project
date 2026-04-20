@@ -112,3 +112,47 @@
         box-shadow: 10px 10px 5px #aaaaaa;
     }
 }
+
+.group-photo {
+    border: 3px solid #457b9d;
+    padding: 1em;
+    width: fit-content;
+    background-color: #f8fbff;
+    margin: 1em 0;
+}
+
+.group-photo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.group-photo figcaption {
+    margin-top: 0.5em;
+    font-style: italic;
+    text-align: center;
+}
+
+.fun-facts {
+    width: 100%;
+    margin-top: 1em;
+}
+
+.fun-facts caption {
+    caption-side: top;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.fun-facts th {
+    background-color: #a8dadc;
+    color: #000000;
+}
+
+.fun-facts td {
+    background-color: #f1faee;
+}
+
+.fun-facts tr:hover td {
+    background-color: #ffe8a1;
+}
